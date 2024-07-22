@@ -15,7 +15,7 @@ jobs:
         with:
           javaversion: "11"
       - name: Build a Maven Project
-        run: mvn clean install -f /webapps/.pom.xml
+        run: mvn clean install -f .pom.xml
 
 
       
